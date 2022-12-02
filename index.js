@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.json());
 
-app.listen(PORT, async () => {
+app.listen(3000, async () => {
   routes(app);
 });
 
